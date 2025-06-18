@@ -1,8 +1,8 @@
-# Microservicios de Gestión de Productos - Instalación Tradicional
+# Microservicios de Gestión de Productos
 
 Este proyecto consiste en dos microservicios para gestionar productos con SKUs basados en países: un backend en Laravel (PHP) y un API Gateway en Node.js.
 
-## 📋 Requisitos Previos
+## Requisitos Previos
 
 ### Para el microservicio Laravel:
 - PHP 8.0 o superior
@@ -16,7 +16,7 @@ Este proyecto consiste en dos microservicios para gestionar productos con SKUs b
 - npm 6.x o superior
 - MySQL 5.7+ o MariaDB 10.3+
 
-## 🚀 Configuración Inicial
+## Configuración Inicial
 
 1. Clonar el repositorio:
 ```bash
@@ -24,7 +24,7 @@ git clone https://github.com/Edgar120008/Prueba_Tecnica_Microservices.git
 cd Prueba_Tecnica_Microservices
 ```
 
-## ⚙️ Configuración del Microservicio Laravel
+## Configuración del Microservicio Laravel
 
 1. Entrar al directorio de Laravel:
 ```bash
@@ -68,7 +68,7 @@ php artisan serve --port=8000
 
 El servicio estará disponible en: http://localhost:8000
 
-## ⚙️ Configuración del Microservicio Node.js
+## Configuración del Microservicio Node.js
 
 1. Desde la raíz del proyecto, entrar al directorio de Node:
 ```bash
@@ -98,7 +98,7 @@ npm start
 
 El servicio estará disponible en: http://localhost:3000
 
-## 📊 Estructura de la Base de Datos
+## Estructura de la Base de Datos
 
 La base de datos se crea automáticamente con las migraciones de Laravel. Si necesitas crearla manualmente:
 
@@ -106,7 +106,7 @@ La base de datos se crea automáticamente con las migraciones de Laravel. Si nec
 CREATE DATABASE countries_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
 
-## 📚 Documentación de la API
+## Documentación de la API
 
 ### Laravel API Docs:
 Accede a la documentación Swagger en:  
@@ -121,7 +121,7 @@ php artisan l5-swagger:generate
 La documentación Swagger está disponible en:  
 http://localhost:3000/api-docs
 
-## 🌐 Endpoints Disponibles
+## Endpoints Disponibles
 
 ### Laravel API (http://localhost:8000/api)
 ```
@@ -143,13 +143,13 @@ DELETE /products/{id}          - Borrado lógico
 PATCH  /products/{id}/restore  - Restaurar producto
 ```
 
-## 🛠️ Estructura del SKU
+## Estructura del SKU
 
 Los productos generan automáticamente un SKU con formato:  
 `CT-{CODIGO_PAIS}-{ID}`  
 Ejemplo: `CT-MX-1` para un producto de México con ID 1
 
-## ⚠️ Solución de Problemas
+## Solución de Problemas
 
 Si encuentras errores:
 1. Verifica que MySQL esté corriendo
