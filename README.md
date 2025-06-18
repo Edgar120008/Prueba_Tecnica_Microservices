@@ -89,6 +89,7 @@ cp .env.example .env
 ```ini
 LARAVEL_API_URL=http://localhost:8000/api
 PORT=3000
+NODE_ENV=development
 ```
 
 5. Iniciar servidor:
