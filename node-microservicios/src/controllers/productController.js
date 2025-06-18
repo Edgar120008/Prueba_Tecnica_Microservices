@@ -257,8 +257,19 @@ exports.updateProduct = async (req, res, next) => {
  *         required: true
  *         description: Numeric ID of the product to delete
  *     responses:
- *       204:
+ *       200:
  *         description: Product deleted successfully
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 success:
+ *                   type: boolean
+ *                   example: true
+ *                 message:
+ *                   type: string
+ *                   example: "Producto eliminado con éxito"
  *       404:
  *         description: Product not found
  *       500:
@@ -270,8 +281,8 @@ exports.updateProduct = async (req, res, next) => {
  */
 exports.deleteProduct = async (req, res, next) => {
     try {
-        await productService.deleteProduct(req.params.id);
-        res.status(204).end();
+        const result = await productService.deleteProduct(req.params.id);
+        res.json({ success: true, message: result.message });
     } catch (error) {
         next(error);
     }
@@ -303,7 +314,7 @@ exports.deleteProduct = async (req, res, next) => {
  *                   example: true
  *                 message:
  *                   type: string
- *                   example: "Product restored"
+ *                   example: "Producto restaurado con éxito"
  *       404:
  *         description: Product not found
  *       500:
@@ -315,8 +326,8 @@ exports.deleteProduct = async (req, res, next) => {
  */
 exports.restoreProduct = async (req, res, next) => {
     try {
-        await productService.restoreProduct(req.params.id);
-        res.json({ success: true, message: 'Product restored' });
+        const result = await productService.restoreProduct(req.params.id);
+        res.json({ success: true, message: result.message });
     } catch (error) {
         next(error);
     }

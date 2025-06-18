@@ -11,3 +11,109 @@
 2025-06-18T03:39:10.063Z [ERROR]: Error:
 2025-06-18T03:42:25.596Z [ERROR]: Error fetching product 5: Product not found
 2025-06-18T03:42:25.597Z [ERROR]: Error:
+2025-06-18T06:41:48.823Z [ERROR]: Error fetching product 4: Ese ID no existe
+2025-06-18T06:41:48.824Z [ERROR]: Error:
+2025-06-18T07:08:47.764Z [ERROR]: Error fetching product 6: Ese ID no existe
+2025-06-18T07:08:47.765Z [ERROR]: Error:
+2025-06-18T07:09:05.768Z [ERROR]: Error creating product:
+2025-06-18T07:09:05.768Z [ERROR]: Error:
+2025-06-18T07:09:35.964Z [ERROR]: Error deleting product 4:
+2025-06-18T07:09:35.964Z [ERROR]: Error:
+2025-06-18T07:13:52.485Z [ERROR]: Error fetching product 7: Ese ID no existe
+2025-06-18T07:13:52.486Z [ERROR]: Error:
+2025-06-18T07:15:01.690Z [ERROR]: Error creating product: La información del producto ya existe. Intenta con información diferente.
+2025-06-18T07:15:01.691Z [ERROR]: Error:
+2025-06-18T07:15:17.743Z [ERROR]: Error updating product 9: Ese ID no existe
+2025-06-18T07:15:17.744Z [ERROR]: Error:
+2025-06-18T07:16:21.146Z [ERROR]: Error updating product 8: Ese ID no existe
+2025-06-18T07:16:21.147Z [ERROR]: Error:
+2025-06-18T07:16:34.177Z [ERROR]: Error deleting product 3: El producto ya está eliminado.
+2025-06-18T07:16:34.177Z [ERROR]: Error:
+2025-06-18T07:17:46.066Z [ERROR]: Error deleting product 9: Ese ID no existe
+2025-06-18T07:17:46.067Z [ERROR]: Error:
+2025-06-18T07:18:00.960Z [ERROR]: Error updating product 3: El producto está eliminado. Solo puede ser recuperado.
+2025-06-18T07:18:00.960Z [ERROR]: Error:
+2025-06-18T07:18:40.227Z [ERROR]: Error restoring product 9: Ese ID no existe
+2025-06-18T07:18:40.227Z [ERROR]: Error:
+2025-06-18T07:29:49.255Z [ERROR]: Error fetching product 8:
+2025-06-18T07:29:49.255Z [ERROR]: Error:
+2025-06-18T07:44:59.009Z [ERROR]: Error fetching product 8:
+2025-06-18T07:45:47.872Z [ERROR]: Error fetching product 8:
+2025-06-18T07:45:47.873Z [ERROR]: Error:
+2025-06-18T07:46:09.826Z [ERROR]: Error creating product:
+2025-06-18T07:46:09.827Z [ERROR]: Error:
+2025-06-18T07:46:33.188Z [ERROR]: Error updating product 9:
+2025-06-18T07:46:33.188Z [ERROR]: Error:
+2025-06-18T07:46:44.657Z [ERROR]: Error updating product 8:
+2025-06-18T07:46:44.658Z [ERROR]: Error:
+2025-06-18T07:46:45.803Z [ERROR]: Error updating product 8:
+2025-06-18T07:46:45.804Z [ERROR]: Error:
+2025-06-18T07:46:46.470Z [ERROR]: Error updating product 8:
+2025-06-18T07:46:46.470Z [ERROR]: Error:
+2025-06-18T07:46:47.003Z [ERROR]: Error updating product 8:
+2025-06-18T07:46:47.003Z [ERROR]: Error:
+2025-06-18T07:46:49.374Z [ERROR]: Error updating product 8:
+2025-06-18T07:46:49.374Z [ERROR]: Error:
+2025-06-18T07:46:49.952Z [ERROR]: Error updating product 8:
+2025-06-18T07:46:49.952Z [ERROR]: Error:
+2025-06-18T07:46:55.489Z [ERROR]: Error updating product 8:
+2025-06-18T07:46:55.490Z [ERROR]: Error:
+2025-06-18T07:46:56.222Z [ERROR]: Error updating product 8:
+2025-06-18T07:46:56.222Z [ERROR]: Error:
+2025-06-18T07:47:27.048Z [ERROR]: Error deleting product 9:
+2025-06-18T07:47:27.048Z [ERROR]: Error:
+2025-06-18T07:47:33.135Z [ERROR]: Error deleting product 8:
+2025-06-18T07:47:33.135Z [ERROR]: Error:
+2025-06-18T07:47:46.102Z [ERROR]: Error restoring product 9:
+2025-06-18T07:47:46.102Z [ERROR]: Error:
+2025-06-18T07:47:47.765Z [ERROR]: Error restoring product 9:
+2025-06-18T07:47:47.765Z [ERROR]: Error:
+2025-06-18T07:48:14.686Z [ERROR]: Error updating product 8:
+2025-06-18T07:48:14.686Z [ERROR]: Error:
+2025-06-18T07:48:25.850Z [ERROR]: Error updating product 9:
+2025-06-18T07:48:25.850Z [ERROR]: Error:
+2025-06-18T07:55:50.326Z [ERROR]: Error updating product 8:
+2025-06-18T07:55:50.327Z [ERROR]: Error:
+2025-06-18T07:55:56.990Z [ERROR]: Error updating product 7:
+2025-06-18T07:55:56.990Z [ERROR]: Error:
+2025-06-18T07:58:58.503Z [ERROR]: Error updating product 9:
+2025-06-18T07:58:58.503Z [ERROR]: Error:
+2025-06-18T07:59:06.282Z [ERROR]: Error updating product 8:
+2025-06-18T07:59:06.283Z [ERROR]: Error:
+2025-06-18T07:59:18.938Z [ERROR]: Error updating product 1:
+2025-06-18T07:59:18.938Z [ERROR]: Error:
+2025-06-18T08:03:26.345Z [ERROR]: Error deleting product 5:
+2025-06-18T08:03:26.346Z [ERROR]: Error:
+2025-06-18T08:09:57.749Z [ERROR]: Error updating product 1:
+2025-06-18T08:09:57.749Z [ERROR]: Error:
+2025-06-18T08:10:30.642Z [ERROR]: Error updating product 11:
+2025-06-18T08:10:30.642Z [ERROR]: Error:
+2025-06-18T08:10:44.080Z [ERROR]: Error updating product 11:
+2025-06-18T08:10:44.080Z [ERROR]: Error:
+2025-06-18T08:11:05.243Z [ERROR]: Error deleting product 11:
+2025-06-18T08:11:05.243Z [ERROR]: Error:
+2025-06-18T08:13:36.399Z [ERROR]: Error fetching products:
+2025-06-18T08:13:36.399Z [ERROR]: Error:
+2025-06-18T08:22:31.048Z [ERROR]: Laravel service is not available:
+2025-06-18T08:22:31.048Z [ERROR]: Error fetching products:
+2025-06-18T08:22:31.049Z [ERROR]: Error:
+2025-06-18T08:22:53.919Z [ERROR]: Laravel service is not available:
+2025-06-18T08:22:53.920Z [ERROR]: Error fetching products:
+2025-06-18T08:22:53.920Z [ERROR]: Error:
+2025-06-18T08:23:01.663Z [ERROR]: Laravel service is not available:
+2025-06-18T08:23:01.664Z [ERROR]: Error creating product:
+2025-06-18T08:23:01.664Z [ERROR]: Error:
+2025-06-18T08:23:46.020Z [ERROR]: Error creating product:
+2025-06-18T08:23:46.021Z [ERROR]: Error:
+2025-06-18T08:23:56.885Z [ERROR]: Error updating product 5:
+2025-06-18T08:23:56.885Z [ERROR]: Error:
+2025-06-18T08:24:04.871Z [ERROR]: Error updating product 2:
+2025-06-18T08:24:04.872Z [ERROR]: Error:
+2025-06-18T08:24:12.408Z [ERROR]: Error updating product 20:
+2025-06-18T08:24:12.408Z [ERROR]: Error:
+2025-06-18T08:24:22.074Z [ERROR]: Error updating product 6:
+2025-06-18T08:24:22.074Z [ERROR]: Error:
+2025-06-18T08:24:33.909Z [ERROR]: Error deleting product 4:
+2025-06-18T08:24:33.909Z [ERROR]: Error:
+2025-06-18T08:24:38.099Z [ERROR]: Error deleting product 410:
+2025-06-18T08:24:38.099Z [ERROR]: Error:
