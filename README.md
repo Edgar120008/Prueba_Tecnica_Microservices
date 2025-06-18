@@ -20,15 +20,15 @@ Este proyecto consiste en dos microservicios para gestionar productos con SKUs b
 
 1. Clonar el repositorio:
 ```bash
-git clone [https://github.com/tu-usuario/microservicios-productos.git](https://github.com/Edgar120008/Prueba_Tecnica_Microservices.git)
-cd microservicios-productos
+git clone https://github.com/Edgar120008/Prueba_Tecnica_Microservices.git
+cd Prueba_Tecnica_Microservices
 ```
 
 ## ⚙️ Configuración del Microservicio Laravel
 
 1. Entrar al directorio de Laravel:
 ```bash
-cd laravel-app
+cd laravel-microservicios
 ```
 
 2. Instalar dependencias:
@@ -72,7 +72,7 @@ El servicio estará disponible en: http://localhost:8000
 
 1. Desde la raíz del proyecto, entrar al directorio de Node:
 ```bash
-cd node-gateway
+cd node-microservicios
 ```
 
 2. Instalar dependencias:
@@ -136,32 +136,11 @@ PATCH  /products/{id}/restore  - Restaurar producto eliminado
 ### Node.js API Gateway (http://localhost:3000/api)
 ```
 GET    /products               - Listar productos procesados
-POST   /products               - Crear producto (validación adicional)
+POST   /products               - Crear producto
 GET    /products/{id}          - Obtener producto procesado
 PUT    /products/{id}          - Actualizar producto
 DELETE /products/{id}          - Borrado lógico
 PATCH  /products/{id}/restore  - Restaurar producto
-```
-
-## 🔍 Ejemplos de Uso con cURL
-
-### Crear producto (a través de Node.js Gateway):
-```bash
-curl -X POST http://localhost:3000/api/products \
-  -H "Content-Type: application/json" \
-  -d '{"name": "Producto de Ejemplo", "countryCode": "MX"}'
-```
-
-### Obtener todos los productos (directo desde Laravel):
-```bash
-curl http://localhost:8000/api/products
-```
-
-### Actualizar producto (a través de Node.js Gateway):
-```bash
-curl -X PUT http://localhost:3000/api/products/1 \
-  -H "Content-Type: application/json" \
-  -d '{"name": "Producto Actualizado", "countryCode": "US"}'
 ```
 
 ## 🛠️ Estructura del SKU
@@ -169,22 +148,6 @@ curl -X PUT http://localhost:3000/api/products/1 \
 Los productos generan automáticamente un SKU con formato:  
 `CT-{CODIGO_PAIS}-{ID}`  
 Ejemplo: `CT-MX-1` para un producto de México con ID 1
-
-## 🧪 Pruebas
-
-Para ejecutar los tests:
-
-### En Laravel:
-```bash
-cd laravel-app
-php artisan test
-```
-
-### En Node.js:
-```bash
-cd node-gateway
-npm test
-```
 
 ## ⚠️ Solución de Problemas
 
