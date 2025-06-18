@@ -1,0 +1,13 @@
+2025-06-18T03:02:19.431Z [ERROR]: Error creating product:
+2025-06-18T03:02:19.432Z [ERROR]: Error creating product: Request failed with status code 422
+2025-06-18T03:02:19.432Z [ERROR]: Error:
+2025-06-18T03:03:55.071Z [ERROR]: Error creating product:
+2025-06-18T03:03:55.071Z [ERROR]: Error creating product: Request failed with status code 422
+2025-06-18T03:03:55.072Z [ERROR]: Error:
+2025-06-18T03:07:59.625Z [ERROR]: Error fetching product 4: Product not found
+2025-06-18T03:07:59.625Z [ERROR]: Error:
+2025-06-18T03:39:10.062Z [ERROR]: Error deleting product 5:
+2025-06-18T03:39:10.062Z [ERROR]: Error deleting product 5: Request failed with status code 404
+2025-06-18T03:39:10.063Z [ERROR]: Error:
+2025-06-18T03:42:25.596Z [ERROR]: Error fetching product 5: Product not found
+2025-06-18T03:42:25.597Z [ERROR]: Error:
