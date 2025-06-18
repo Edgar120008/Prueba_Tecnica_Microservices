@@ -7,7 +7,6 @@ const HEALTH_CHECK_TIMEOUT = 3000;
 
 class ProductRepository {
     /**
-     * Verifica si el servicio Laravel está disponible
      * @private
      */
     async #checkLaravelService() {
@@ -23,9 +22,8 @@ class ProductRepository {
     }
 
     /**
-     * Maneja el caso cuando Laravel no está disponible
      * @private
-     * @throws {Object} Error con detalles del servicio no disponible
+     * @throws {Object}
      */
     async #handleLaravelUnavailable() {
         const serviceAvailable = await this.#checkLaravelService();
@@ -44,11 +42,10 @@ class ProductRepository {
     }
 
     /**
-     * Maneja errores de Axios y genera errores consistentes
      * @private
-     * @param {Error} error - Error original
-     * @param {string} operation - Descripción de la operación (para logging)
-     * @throws {Object} Error formateado
+     * @param {Error} error
+     * @param {string} operation
+     * @throws {Object}
      */
     #handleRequestError(error, operation) {
         if (error.serviceUnavailable) throw error;
